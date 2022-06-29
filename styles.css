@@ -61,6 +61,7 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding-left: 30px;
+    padding-bottom: 12px;
 }
 
 #header > div {
@@ -91,6 +92,17 @@ body {
 .profile {
     width: 50px;
     border-radius: 50%;
+    margin-right: 20px;
+}
+
+#div-handle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#div-handle span:first-child {
+    font-size: 12px;
 }
 
 #header > div > button {
