@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body {
     height: 100vh;
@@ -112,7 +112,7 @@ body {
     margin: 10px;
     height: 35px;
     width: 80px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
@@ -147,6 +147,30 @@ body {
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     border-left: 7px solid #65951d;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card > div > h4 {
+    margin: 0px;
+}
+
+.project-card > div > span {
+    color: #636363;
+    font-size: 14px;
+}
+
+.card-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.card-icons > img {
+    margin-left: 15px;
+    width: 22px;
 }
 
 #announcements {
@@ -163,7 +187,24 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 20px;
+}
 
+.side-card > hr {
+    border: 1px solid #d2d2d2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.side-card > div > h5 {
+    margin: 0px;
+}
+
+.side-card > div > span {
+    color: #636363;
+    font-size: 12px;
 }
 
 #announcements > h4, #trending > h4 {
