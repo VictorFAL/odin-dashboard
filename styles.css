@@ -85,13 +85,16 @@ body {
 
 #top-profile {
     width: 30px;
+    height: 30px;
     margin: 0px 25px;
 }
 
 .profile {
     width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 20px;
+    background-color: #65951d;
 }
 
 #div-handle {
@@ -198,15 +201,50 @@ body {
     margin-bottom: 15px;
 }
 
-.side-card > div > h5 {
+#annouce-card > div > h5 {
     margin: 0px;
 }
 
-.side-card > div > span {
+#annouce-card > div > span {
     color: #636363;
     font-size: 12px;
 }
 
 #announcements > h4, #trending > h4 {
     margin-bottom: 10px;
+}
+
+/* #trend-card {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+} */
+
+.trending-profiles {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    align-items: center;
+}
+
+.trending-profiles div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.trend-handle {
+    font-size: 14px;
+}
+
+.trend-proj {
+    font-size: 14px;
+    color: #636363;
 }
